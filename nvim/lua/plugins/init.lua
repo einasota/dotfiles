@@ -23,9 +23,4 @@
         },
       },
     },
-    {
-      "rcarriga/nvim-dap-ui",
-      enable = true,
-    dependencies = {"mfussenegger/nvim-dap", "nvim-neotest/nvim-nio"}
   }
-}

@@ -35,3 +35,7 @@ require "nvchad.autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+-- if vim.fn.argc(-1) == 0 then
+--   vim.cmd("NvimTreeToggle")
+-- end
